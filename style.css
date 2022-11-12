@@ -1,0 +1,76 @@
+html{
+    font-size: 62%;
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: cadetblue;
+}
+.generate{
+    background-color: aliceblue;
+    max-width: 41rem;
+    border-radius: 0.7rem;
+    padding: 1.6rem 2.5rem;
+    transition: height 0.2s ease;
+}
+.generate h1{
+    font-size: xx-large;
+    font-weight: 500;
+}
+.generate p{
+    font-size: 2rem;
+    color: darkgray;
+}
+.generate .active{
+    height: 53rem;
+}
+.generate form{
+    margin: 2rem 0 3rem;
+}
+.form :where(input, button){
+    width: 100%;
+    height: 5.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+
+}
+.form input{
+    font-size: 1.8rem;
+    padding: ;
+}
+.gr-code {
+    display: flex;
+    justify-content: center;
+}
+.form button{
+background-color: thistle;
+cursor: pointer;
+margin-top:1.5rem;
+}
+.gr-code img{
+    margin-top: 1.5rem;
+}
+.generate.active.gr-code{
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s 0.05s ease;
+}
+.generate .gr-code{
+    display: flex;
+    
+    pointer-events: none;
+    padding: 3.3rem 0;
+    border-radius: o.5rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+}
